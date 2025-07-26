@@ -131,3 +131,76 @@ a=True; b=False
 print("Equall", a and b)
 print("Not Equall", a or b)
 print("Not Equall", not a)
+
+
+#For Loop
+
+# numbers = [1, 2, 3, 4, 5]
+# print("Numbers:")
+# for num in numbers: 
+#     print(num)
+
+
+table=3
+for i in range(1, 11):
+        result = table * i
+        print(f"{table} x {i} = {result}")
+
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(f"{i} is even")
+    else:
+        print(f"{i} is odd")
+
+
+# Nested For Loop
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(f"i: {i}, j: {j}")
+
+
+# While Loop
+# count = 0
+# while count < 5:
+#     print("Count is:", count)
+#     count += 1
+
+
+# for i in range(1, 11):
+#     if i == 5:
+#         print("Skipping number 5")
+#         continue  # Skip the rest of the loop for this iteration
+#     print(i)
+
+
+# table,count=4,1
+# while count <= 10:
+#     if count == 5:
+#         print("Skipping count 5")
+#         count += 1
+#         continue
+#     result = table * count
+#     print(f"{table} x {count} = {result}")
+#     count += 1
+
+
+    #Print sum of numbers
+
+num = 12345
+count = 0
+while num != 0:
+    num //= 10 
+    count += 1
+print("Number of digits:", count)
+
+
+
+#if Statement
+
+number=input("Enter a number: ")
+if int(number) > 0:
+    print("The number is positive.")
+elif int(number) < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
