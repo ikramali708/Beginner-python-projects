@@ -124,3 +124,10 @@ mixed_dict.pop("age")  # Removing an element from the dictionary
 print("Updated mixed dictionary after removing age:", mixed_dict)
 
 print(mixed_dict.items())
+
+
+a=True; b=False
+
+print("Equall", a and b)
+print("Not Equall", a or b)
+print("Not Equall", not a)
